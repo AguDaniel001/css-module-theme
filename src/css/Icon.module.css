@@ -1,0 +1,15 @@
+.icon {
+  font-size: 28px;
+  padding: 5px 10px;
+  color: var(--text);
+}
+
+.icon.primary {
+  color: var(--primary);
+}
+.icon.success {
+  color: var(--success);
+}
+.icon.error {
+  color: var(--error);
+}

@@ -1,0 +1,54 @@
+
+:root.light {
+  --primary: #4caf50;
+  --primary-light: #89c089;
+  --primary-dark: #2e7d30;
+  --background-primary: #ffffff;
+  --background-secondary: #ffffff;
+  --title: #242424;
+  --text: #333;
+  --text-dark: #0f0f0f;
+  --box-shadow: #d9d9d9;
+  --transparent: transparent;
+  --border-outline: #79797938;
+  --constant-white: #fff;
+  --success: #039d21;
+  --error: #b92e2e;
+  --warning: #942d2d;
+  --info: #b7cfe6;
+}
+
+:root.dark {
+  --primary: #4caf50;
+  --primary-dark: #2e7d30;
+  --primary-light: #89c089;
+  --background-primary: #1c1c1c;
+  --background-secondary: #2c2c2c;
+  --title: #ffffffde;
+  --text: #a5a5a5;
+  --text-dark: #888;
+  --box-shadow: #1a1a1a;
+  --transparent: transparent;
+  --border-outline: #ffffff2d;
+  --constant-white: #fff;
+  --success: #039d21;
+  --error: #b92e2e;
+  --warning: #942d2d;
+  --info: #5b5b5b;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,22 @@
+
+.input {
+  height: 38px;
+  width: 93%;
+  color: var(--text);
+  background-color: var(--transparent);
+  border: 1px solid var(--border-outline); 
+  border-radius: 8px;
+  padding: 10px 10px 4px 14px;
+  transition: border 0.3s;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.input:hover {
+  border: 1px solid var(--primary); 
+}
+
+.input:focus {
+  outline: none;
+  border: 1px solid var(--primary); 
+}

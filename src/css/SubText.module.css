@@ -1,0 +1,22 @@
+
+.subText {
+  color: var(--text);
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.subText.primary {
+  color: var(--primary);
+}
+
+.subText.bold {
+ font-weight: 500;
+}
+
+.subText.success {
+  color: var(--success);
+}
+
+.subText.error {
+  color: var(--error) ;
+}

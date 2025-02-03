@@ -1,0 +1,14 @@
+
+ .App {
+  text-align: center;
+  height: 100vh;
+  background-color: var(--background-primary);
+  transition: all 0.2s ease;
+}
+
+.page-wrapper {
+  background-color: var(--background-primary);
+  padding: 20px;
+  height: 100vh auto;
+  transition: all 0.2s ease;
+}
